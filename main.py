@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-def mul_range(start, stop, mul):
-    value = start
-    step = start
-    while value < stop:
-        yield step
-        step += 1
-
-
 def assign_bin(input_set):
     dict = {}
     for i in range(0, len(input_set)):
