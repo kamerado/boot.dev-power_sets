@@ -13,7 +13,6 @@ This project is a Python implementation for generating the power set (all subset
 Each element in the input set is assigned a unique binary index. By iterating through all binary numbers of length equal to the input set's size, we determine which elements belong in each subset.
 
 ### 2. **Key Functions**
-- `mul_range(start, stop, mul)`: Generates values in a range with a step increment.
 - `assign_bin(input_set)`: Assigns each element of the set a unique binary index.
 - `bin_num_iter(input_set)`: Generates binary numbers from `0` to `2^n - 1`, representing subsets.
 - `bin_array(bin_num)`: Converts a binary string into an array of integers.
